@@ -23,8 +23,8 @@ Read these, in this order (about 30 minutes in total):
 ## 3. Set up
 
 ```bash
-git clone https://github.com/Laurens-vc/mtah2027-possession.git
-cd mtah2027-possession
+git clone https://github.com/Laurens-vc/Barca-Hackathon.git
+cd Barca-Hackathon
 python3 -m venv .venv
 .venv/bin/pip install -r requirements-frozen.txt
 .venv/bin/python evaluation/run_evaluation.py        # scores the 4 official baselines, works without data
