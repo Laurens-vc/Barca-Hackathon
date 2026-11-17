@@ -1,9 +1,9 @@
-# [TEAM NAME]: technical document
+# Possession Is Nine: technical document
 
 More than a Hack 2027, Phase 1: ball possession. FC Barcelona vs Athletic Club.
 
 Repository: https://github.com/Laurens-vc/Barca-Hackathon
-Submission file: `[TEAM NAME].csv`, produced by `solution/run.py`
+Submission file: `Possession Is Nine.csv`, produced by `solution/run.py`
 
 ## 1. Approach
 
@@ -103,8 +103,8 @@ cd Barca-Hackathon
 python3 -m venv .venv
 .venv/bin/pip install -r requirements-frozen.txt
 # unpack the data bundle into data/tactical/ (see data/README.md)
-.venv/bin/python solution/run.py --team "[TEAM NAME]"
-.venv/bin/python evaluation/validate_submission.py "submissions/[TEAM NAME].csv"
+.venv/bin/python solution/run.py --team "Possession Is Nine"
+.venv/bin/python evaluation/validate_submission.py "submissions/Possession Is Nine.csv"
 ```
 
 A full run takes about 5 seconds on a laptop. The parsed tracking is cached in `data/cache/`, which git ignores. The method is deterministic: the same data produces the same file, byte for byte.
